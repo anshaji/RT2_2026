@@ -2,7 +2,7 @@
 title: "Version Control with the GitHub App and GitHub<sup>1</sup>"
 author: "Akash Shaji"
 subtitle: "Research Transparency and Reproducibility Training (RT2)"
-date: "20 May 2026 | May 19–21, 2026 | Berkeley, CA <br><br> <sup>1</sup>*adapted from Fernando Hoces de la Guardia's*"
+date: "20 May 2026 | May 19–21, 2026 | Berkeley, CA <br><br> <sup>1</sup>*adapted from Fernando Hoces de la Guardia*"
 output: 
   xaringan::moon_reader:
     footer: "Research Transparency and Reproducibility Training (RT2) 2026"
