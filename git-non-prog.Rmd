@@ -28,7 +28,7 @@ count:true
 
 - Create an account at [GitHub.com](http://www.github.com/)?
 
-- If no to any, please do it now (recommend to exit zoom temporarily to allow for internet bandwidth)
+- If no to any, please do it now
 
 ]
 
