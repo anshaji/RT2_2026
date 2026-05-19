@@ -3,8 +3,8 @@
   <head>
     <title>Git for Non-Programmers</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Fernando Hoces de la Guardia, BITSS" />
-    <script src="libs/header-attrs-2.22/header-attrs.js"></script>
+    <meta name="author" content="Akash Shaji" />
+    <script src="libs/header-attrs-2.30/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/metropolis.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/metropolis-fonts.css" rel="stylesheet" />
@@ -17,13 +17,13 @@ class: center, middle, inverse, title-slide
 # Git for Non-Programmers
 ]
 .subtitle[
-## CEGA EASST Fellows Training
+## Research Transparency and Reproducibility Training (RT2)
 ]
 .author[
-### Fernando Hoces de la Guardia, BITSS
+### Akash Shaji
 ]
 .date[
-### 03 November 2023 , <a href="https://bitss.github.io/CEGA2023/">Slides</a>
+### 20 May 2026 | May 19–21, 2026 | Berkeley, CA
 ]
 
 ---
@@ -69,7 +69,7 @@ background-position: 100% 50%
 &lt;br&gt;
 - Version Control Software is an increasingly popular tool for computational reproducibility
 
-- Git is a type of VCS and Github company that build on top of .   
+- Git is a type of VCS and GitHub is a company that builds on top of it.
 
 - They are very popular among programmers, but not so much among non-programmers. 
 
@@ -132,7 +132,7 @@ background-position: 100% 50%
 &lt;br&gt;
 - By code Git understands any type of plain text file (`myfile.R`, `myfile.do`, `.tex/.md/.txt/.csv/.etc`).
 
-- This type of file can be understood as "human readable" as machine and human see the same fie. 
+- This type of file can be understood as "human readable" as machine and human see the same file. 
 
 - Files that are "non-human readable" are called binary files (`myfile.docx`, `myfile.xlxs`, `.pdf/.exe/.dta/.etc`).
 
@@ -145,12 +145,12 @@ background-position: 100% 50%
 .font150[
 &lt;br&gt;
 - Github is a company that provides two services (that we care of): 
-  - A web hosting service for all our files track with Git (public free/private $ or free if academic).  
+  - A web hosting service for all our files tracked with Git (public and private repos are free).
   - A GUI software (Desktop App) that provides user friendly access to Git.
 
 - Others hosting ss include: Bitbucket, GitLab, Gitkraken, etc. 
 
-- Other GUIs include: SourceTree, Gitkraken, Atom, RStudio.
+- Other GUIs include: SourceTree, GitKraken, VS Code, RStudio.
 
 ]
 
@@ -238,19 +238,15 @@ talk about undo here
 ---
 # Demos
 
-## Five Demos: 
+## Three Demos:
 &lt;br&gt;
 .font140[
 
-1 - **Simple but instructive.**   
+1 - **Simple but instructive.**
 
-2 - Repeat with branches.  
- 
-3 - Repeat with collaboration: pull requests.   
+2 - Repeat with branches.
 
-4 - Repeat with collaboration: shared ownership.   
-
-5 - Explore a real life repo.    
+3 - Explore a real life repo.
 ]
 ---
 
@@ -293,23 +289,19 @@ talk about undo here
 ]
 
 ---
-# Five Demos 2/5: 
+# Three Demos: 2/3
 &lt;br&gt;
 .font140[
 
-1 - Simple but instructive.   
-    *Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete, search repo, download old version.*   
+1 - Simple but instructive.
+    *Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete, search repo, download old version.*
 
-2 - **Repeat with branches.**  
- 
-3 - Repeat with collaboration: pull requests.   
+2 - **Repeat with branches.**
 
-4 - Repeat with collaboration: shared ownership.   
-
-5 - Explore a real life repo.     
+3 - Explore a real life repo.
     ]
 ---
-# .font80[Demo #2: Branches and collaboration (we wil be here a while)]
+# .font80[Demo #2: Branches and collaboration (we will be here a while)]
 &lt;br&gt;
 .font140[
 
@@ -327,7 +319,7 @@ talk about undo here
 ---
 # Fatal Error!
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-&lt;img src="Images/error_image.png" width="50%" style="display: block; margin: auto;" /&gt;
+&lt;img src="Images/error_image.png" alt="" width="50%" style="display: block; margin: auto;" /&gt;
 
 
 
@@ -342,128 +334,24 @@ background-size: contain
 .right[
   [Jenny Bryan's Advice](https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user)
 ]
----
-# Five Demos: 3/5 
-
-&lt;br&gt;
-.font140[
-
-
-1 - Simple but instructive.   
-    Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete, search repo, download old version.  
-    
-2 - Repeat with branches.  
-    *Review: All of the above, plus: branch, merge, resolve conflicts.*  
-    
-3 - **Repeat with collaboration: pull requests.**  
-
-4 - Repeat with collaboration: shared ownership.     
-
-5 - Explore a real life repo.  
-
-
-]
----
-# Two formats of collaboration  
-&lt;br&gt;
-.font140[
-
-- One owner, many pull requests.  
-    - Easier to control, requires constant updating of forks.   
-    
-- Many owners, all can push.   
-    - **Very** important to pull at the beginning and at before each push. 
-]
----
-# Demo #3: Pull requests
-&lt;br&gt;
-.font140[
-
-1 - Fork repo [github.com/BITSS/test_birthday](https://github.com/BITSS/test_birthday), and clone it into your machine.  
-
-2 - Edit fields of name, and birth date.   
-
-3 - Save, commit and push.   
-
-4 - Create your first **pull request**.   
-
-5 - Let's see if I can manage all those pull requests very quickly (maybe illustrate issues).   
-
-6 - Now find your neighbors repo of Demos 1 &amp; 2, fork it, clone it, make a change, save, commit, and...
-] 
-
----
-# Five Demos: 4/5 
-.font140[
-1 - Simple but instructive.   
-    Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete, search repo, download old version.  
-    
-2 - Repeat with branches.  
-    Review: All of the above, plus: branch, merge, resolve conflicts.   
-    
-3 - Repeat with collaboration: pull requests.   
-    *Review: collaborate via fork + PR*  
-    
-4 - **Repeat with collaboration: shared ownership. **    
-
-5 - Explore a real life repo.  
-
-]
----
-# Demo #4: Many owners
-
-.font140[
-    
-1 - Half of you (\#1): go back to the repo of demo 1 &amp; 2 and invite a collaborator.  
-(Suggestion: the "forker" finds the repo, the "forkee" is invited  
-, edits, commits,  and push/pull)  
-]
---
-.font140[
-2 - The other half (\#2): clones, commits and pushes.  
-]
---
-.font140[
-3 - \#1 commits and pushes in **different lines**.    
-]
---
-.font140[
-4 - Switch and repeat 2 &amp; 3: \#2 commits first and pushes, then \#1.    
-]
---
-.font140[
-5 - Repeat 2 - 4 but now both of you in the same lines.    
-]
-
---
-.font140[
-6 - Repeat now but with branches (optional).    
-]
-
 
 
 ---
-# Five Demos: 5/5 
+# Three Demos: 3/3
 .font140[
 
-1 - Simple but instructive.   
-    Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete, search repo, download old version.  
+1 - Simple but instructive.
+    Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete, search repo, download old version.
 
-2 - Repeat with branches.  
-    Review: All of the above, plus: branch, merge, resolve conflicts.   
+2 - Repeat with branches.
+    *Review: All of the above, plus: branch, merge, resolve conflicts.*
 
-3 - Repeat with collaboration: pull requests.   
-    Review: collaborate via fork + PR  
-
-4 - Repeat with collaboration: shared ownership.     
-    *Review: collaborate via share ownership.*  
-
-5 - **Explore a real life repo. ** 
-]   
+3 - **Explore a real life repo.**
+]
 
 
 ---
-# Demo #5: .font80[Look inside a real-life project (and collaborate!)]
+# Demo #3: .font80[Look inside a real-life project (and collaborate!)]
 .font140[
 1-  Find the following repo: [`github.com/BITSS/opa-wealthtax`](https://www.github.com/BITSS/opa-wealthtax).   
 
@@ -480,22 +368,16 @@ background-size: contain
 
 
 ---
-# Five Demos: 5/5 
+# Three Demos: 3/3
 .font140[
-1 - Simple but instructive.   
-    Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete, search repo, download old version.  
-    
-2 - Repeat with branches.  
-    Review: All of the above, plus: branch, merge, resolve conflicts.   
-    
-3 - Repeat with collaboration: pull requests.   
-    Review: collaborate via fork + PR  
-    
-4 - Repeat with collaboration: shared ownership.     
-    Review: collaborate via share ownership.  
-    
-5 - Explore a real life repo.  
-    *Review: All of the above, plus: how does a real-life example looks like.* 
+1 - Simple but instructive.
+    Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete, search repo, download old version.
+
+2 - Repeat with branches.
+    Review: All of the above, plus: branch, merge, resolve conflicts.
+
+3 - Explore a real life repo.
+    *Review: All of the above, plus: how does a real-life example look like.*
 ]
 
 ---
@@ -533,7 +415,7 @@ Some good habits:
 ]
 
 ---
-# .font80[Economists Doing Highly Reproducible Work&lt;sup&gt;1&lt;/sup&gt;] 
+# .font80[Researchers Doing Highly Reproducible Work&lt;sup&gt;1&lt;/sup&gt;] 
 
 .pull-left[
 
@@ -573,7 +455,7 @@ Some good habits:
 
 &lt;/br&gt;&lt;/br&gt;
 .footnote[
-[1]: Non-exhaustive list of people and organizations doing amazing reproducible work on github (other than us!)
+[1]: Non-exhaustive list of people and organizations doing amazing reproducible work on GitHub (other than us!)
 ]
 
 
@@ -584,10 +466,10 @@ Some good habits:
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
-"ratio": "16:9",
-"highlightStyle": "github",
-"highlightLines": true,
-"countIncrementalSlides": false
+  "ratio": "16:9",
+  "highlightStyle": "github",
+  "highlightLines": true,
+  "countIncrementalSlides": false
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));

@@ -1,5 +1,5 @@
 ---
-title: "Git for Non-Programmers"
+title: "Introduction to Version Control with GitHub"
 author: "Akash Shaji"
 subtitle: "Research Transparency and Reproducibility Training (RT2)"
 date: "20 May 2026 | May 19–21, 2026 | Berkeley, CA"
