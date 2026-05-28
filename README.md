@@ -14,3 +14,5 @@ Before this meeting please make sure you have installed the following software:
 As a complement to this training, I recommend watching the following lectures from Prof. Ted Miguel:
  - [On the scientific ethos](https://www.youtube.com/watch?v=rDy2dEuMpJE)
  - [On pre-registrations and pre-analysis plans](https://www.youtube.com/watch?v=XeGH5Hzdl_c)
+ 
+ Add something
